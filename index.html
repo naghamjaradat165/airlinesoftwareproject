@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Flight Booking System</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Online Flight Booking System</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Flight List</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="about-us">
+        <h2>ABOUT US</h2>
+    </section>
+
+    <section class="content">
+        <div class="container">
+            <h3>Lorem Ipsum</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </div>
+    </section>
+
+    <main>
+        <section class="booking">
+            <h2>Welcome to Online Flight Booking System</h2>
+            <form>
+                <label for="from">From</label>
+                <select id="from" name="from">
+                    <option value="" disabled selected>Select Departure</option>
+                </select>
+                <label for="to">To</label>
+                <select id="to" name="to">
+                    <option value="" disabled selected>Select Departure</option>
+                </select>
+                <label for="departure-date">Departure Date</label>
+                <input type="date" id="departure-date" name="departure-date">
+                <div class="trip-type">
+                    <input type="radio" id="one-way" name="trip" value="one-way" checked>
+                    <label for="one-way">One-way</label>
+                    <input type="radio" id="round-trip" name="trip" value="round-trip">
+                    <label for="round-trip">Round Trip</label>
+                </div>
+                <button type="submit">Find Flights</button>
+            </form>
+        </section>
+        <section class="flights">
+            <h2>Flights Available</h2>
+            <article class="flight">
+                <img src="airlinelogo.png" alt="Airline Logo">
+                <div class="flight-details">
+                    <p><strong>Siargao Airport, Siargao, Surigao Del Norte - NAIA, Metro Manila</strong></p>
+                    <p>Airline: Cebu Pacific</p>
+                    <p>Departure: 06:11 PM</p>
+                    <p>Arrival: May 28, 2023 07:00 AM</p>
+                    <p>Price: 2,000.00</p>
+                    <button>Book Now</button>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <h3>Contact us</h3>
+            <div class="contact-info">
+                <p><i class="fas fa-phone"></i> +6948 8542 623</p>
+                <p><i class="fas fa-envelope"></i> nagham.frehat2002@gmail.com </p> naghamjaradat55@gmail.com</p>
+            </div>
+            <p>&copy; 2024 - Online Flight Booking System | <a href="#">Sourcecodester</a></p>
+        </div>
+    </footer>
+</body>
+
+</html>
